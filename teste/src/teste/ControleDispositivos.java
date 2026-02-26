@@ -2,7 +2,7 @@ package teste;
 
 import java.util.Scanner;
 
-public class Tesetes {
+public class ControleDispositivos {
 
 	public static void main(String[] args) {
 		
@@ -33,6 +33,10 @@ public class Tesetes {
 	    	} 
 	    	
 	    	break;
+	    	
+	    	default:
+	    		System.out.println("Opção inválida! Escolha entre Lâmpada, Upload e Atravessar");
+	    		break;
 	}
 		
 		}
